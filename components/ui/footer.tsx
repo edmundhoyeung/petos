@@ -28,7 +28,7 @@ export default function Footer() {
 
               {/* 2nd block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Company</h6>
+                <h6 className="text-gray-200 font-medium mb-2">Company</h6>
                 <ul className="text-sm">
                   <li className="mb-2">
                     <Link href="https://www.petionship.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Petionship</Link>
@@ -44,7 +44,7 @@ export default function Footer() {
 
               {/* 3rd block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Address</h6>
+                <h6 className="text-gray-200 font-medium mb-2">Address</h6>
                 <ul className="text-sm">
                   <li className="mb-2">
                     <a className="text-gray-400 hover:text-gray-400 transition duration-150 ease-in-out">Lakeside 2</a>
@@ -60,7 +60,7 @@ export default function Footer() {
 
               {/* 4th block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Contact</h6>
+                <h6 className="text-gray-200 font-medium mb-2">Contact</h6>
                 <ul className="text-sm">
                   <li className="mb-2">
                     <a href="mailto:petos@petionship.com" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">petos@petionship.com</a>
