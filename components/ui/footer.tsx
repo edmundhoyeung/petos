@@ -60,22 +60,16 @@ export default function Footer() {
 
               {/* 4th block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Company</h6>
-                <ul>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Consectetur adipiscing</Link>
+                <h6 className="text-gray-200 font-medium mb-1">Contact</h6>
+                <ul className="text-sm">
+                  <li className="mb-2">
+                    <a href="mailto:petos@petionship.com" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">petos@petionship.com</a>
                   </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Labore et dolore</Link>
+                  <li className="mb-2">
+                    <a className="text-gray-400 hover:text-gray-400 transition duration-150 ease-in-out">(+852) 68860559</a>
                   </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Consectetur adipiscing</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Labore et dolore</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Consectetur adipiscing</Link>
+                  <li className="mb-2">
+                    <a className="text-gray-400 hover:text-gray-400 transition duration-150 ease-in-out">Mon-Fri: 10am-6pm</a>
                   </li>
                 </ul>
               </div>
