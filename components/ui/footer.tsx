@@ -29,14 +29,14 @@ export default function Footer() {
               {/* 2nd block */}
               <div className="text-sm">
                 <h6 className="text-gray-200 font-medium mb-1">Company</h6>
-                <ul>
-                  <li className="mb-1">
+                <ul className="text-sm">
+                  <li className="mb-2">
                     <Link href="https://www.petionship.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Petionship</Link>
                   </li>
-                  <li className="mb-1">
+                  <li className="mb-2">
                     <Link href="https://www.petionship.com.hk" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Petionship Wholesale</Link>
                   </li>
-                  <li className="mb-1">
+                  <li className="mb-2">
                     <Link href="https://petgpt.petionship.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">PetGPT</Link>
                   </li>
                 </ul>
