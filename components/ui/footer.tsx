@@ -20,7 +20,7 @@ export default function Footer() {
                   </svg>
                 </Link>
               </div>
-              <div className="text-gray-400">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
+              <div className="text-gray-400">PetOS - All-in-one pet business management system powered by big data and AI.</div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
@@ -44,22 +44,16 @@ export default function Footer() {
 
               {/* 3rd block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
-                <ul>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Nostrud exercitation</Link>
+                <h6 className="text-gray-200 font-medium mb-1">Address</h6>
+                <ul className="text-sm">
+                  <li className="mb-2">
+                    <a className="text-gray-600 hover:text-gray-600 transition duration-150 ease-in-out">6/F, Lakeside 2</a>
                   </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Visual mockups</Link>
+                  <li className="mb-2">
+                    <a className="text-gray-600 hover:text-gray-600 transition duration-150 ease-in-out">10 Science Park W Avenue</a>
                   </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Nostrud exercitation</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Visual mockups</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Nostrud exercitation</Link>
+                  <li className="mb-2">
+                    <a className="text-gray-600 hover:text-gray-600 transition duration-150 ease-in-out">Science Park, Hong Kong</a>
                   </li>
                 </ul>
               </div>
