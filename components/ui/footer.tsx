@@ -47,13 +47,13 @@ export default function Footer() {
                 <h6 className="text-gray-200 font-medium mb-1">Address</h6>
                 <ul className="text-sm">
                   <li className="mb-2">
-                    <a className="text-gray-600 hover:text-gray-600 transition duration-150 ease-in-out">6/F, Lakeside 2</a>
+                    <a className="text-gray-400 hover:text-gray-400 transition duration-150 ease-in-out">Lakeside 2</a>
                   </li>
                   <li className="mb-2">
-                    <a className="text-gray-600 hover:text-gray-600 transition duration-150 ease-in-out">10 Science Park W Avenue</a>
+                    <a className="text-gray-400 hover:text-gray-400 transition duration-150 ease-in-out">10 Science Park W Avenue</a>
                   </li>
                   <li className="mb-2">
-                    <a className="text-gray-600 hover:text-gray-600 transition duration-150 ease-in-out">Science Park, Hong Kong</a>
+                    <a className="text-gray-400 hover:text-gray-400 transition duration-150 ease-in-out">Science Park, Hong Kong</a>
                   </li>
                 </ul>
               </div>
